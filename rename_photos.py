@@ -51,7 +51,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument(
         "-f",
         "--format",
-        default="%Y-%m-%d_%H-%M-%S",
+        default="%Y%m%d-%H%M-%S",
         help="Datetime format for new filename (strftime format). Default: %%Y-%%m-%%d_%%H-%%M-%%S",
     )
     p.add_argument(
